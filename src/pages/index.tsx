@@ -7,6 +7,7 @@ import {
   PaintBrushIcon,
 } from "@heroicons/react/24/outline";
 import type { NextPage } from "next";
+import Image from "next/legacy/image";
 
 const Home: NextPage = () => {
   return (
@@ -135,6 +136,121 @@ const Home: NextPage = () => {
                   UPSC-CSE/UPSC, IES/GATE, Mental Health,etc.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="works" className="relative px-6 sm:-scroll-m-20 lg:px-8">
+        <div className="mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+          <div>
+            <div>
+              <div data-aos="fade-up" className="mx-auto max-w-4xl">
+                <h1 className="pb-4 text-center text-lg font-medium tracking-tight sm:text-2xl">
+                  WORKS
+                </h1>
+                <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">
+                  View our works below to see our design and way of research &
+                  development
+                </h1>
+                <p className="mt-6 text-center text-lg leading-8 text-zinc-600">
+                  Samarth posts weekly content about the recent ongoings in the
+                  world. It ranges from exciting content and stunning graphics
+                  to spine-chilling facts and unmatched visuals.
+                </p>
+              </div>
+              <section className="body-font text-zinc-600">
+                <div
+                  data-aos="fade-up"
+                  className="container mx-auto flex flex-col items-center py-10 pt-16 sm:px-5 md:flex-row"
+                >
+                  <div className="mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
+                    <Image
+                      className="rounded-2xl object-cover object-center"
+                      alt="hero"
+                      src="/images/works/hacktoberfest.jpeg"
+                      width={500}
+                      height={500}
+                      placeholder="blur"
+                      blurDataURL="/images/works/hacktoberfest.jpeg"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
+                    <p className="mb-4 text-sm font-semibold uppercase text-zinc-500">
+                      HACKTOBERFEST 2022
+                    </p>
+                    <h1 className="mb-4 text-3xl font-bold text-zinc-900 sm:text-4xl">
+                      Hacktoberfest 2022
+                      <br className="hidden lg:inline-block" />
+                      Status: HACKED!
+                    </h1>
+                    <p className="mb-8 leading-relaxed">
+                      Team Samarth is happy to share that we have{" "}
+                      <b>&apos;Hacked 🚀 the Hacktoberfest 2022&apos;</b> with a
+                      blast of over 300+ Pull Request over our 4 repositories,
+                      helping more than 100 students PAN India.
+                    </p>
+                    <div className="flex justify-center">
+                      <Button variant="primary" bouncy={true} shadow="medium">
+                        View Work
+                        <span
+                          className="pl-1 text-orange-100"
+                          aria-hidden="true"
+                        >
+                          &#8599;
+                        </span>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  className="container my-10 mx-auto flex flex-col items-center py-10 sm:flex-row sm:px-5"
+                >
+                  <div className="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
+                    <p className="mb-4 text-sm font-semibold uppercase text-zinc-500">
+                      DEVFEST KOLKATA 2022
+                    </p>
+                    <h1 className="mb-4 text-3xl font-bold text-zinc-900 sm:text-4xl">
+                      Official Community Partner
+                      <br className="hidden lg:inline-block" />
+                      For DevFest Kolkata 2022!
+                    </h1>
+                    <p className="mb-8 leading-relaxed">
+                      Do you envision impacting the lives of millions through
+                      the lens of technology? If yes, we have a piece of
+                      excellent news for you all. Team Samarth is elated to
+                      officially announce that we are now Community Partner of
+                      the prestigious DevFest Kolkata 2022🔥.
+                    </p>
+                    <div className="flex w-full items-end justify-center md:justify-start">
+                      <Button variant="primary" bouncy={true} shadow="medium">
+                        View Work
+                        <span
+                          className="pl-1 text-orange-100"
+                          aria-hidden="true"
+                        >
+                          &#8599;
+                        </span>
+                      </Button>
+                    </div>
+                  </div>
+                  <div className="order-first mb-10 w-5/6 sm:order-none md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
+                    <span>
+                      <Image
+                        alt="hero"
+                        src="/images/works/dev.jpg"
+                        className="rounded-2xl object-cover object-center"
+                        width={500}
+                        height={500}
+                        placeholder="blur"
+                        blurDataURL="/images/works/dev.jpg"
+                        loading="lazy"
+                      />
+                    </span>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
         </div>
