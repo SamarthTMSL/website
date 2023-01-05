@@ -120,6 +120,25 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+      <div className="relative bg-gradient-to-tr from-rose-500 to-amber-500 px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl py-32 sm:pb-40">
+          <div>
+            <div data-aos="fade-up">
+              <div className="mx-auto max-w-4xl">
+                <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl">
+                  Our Motto{" "}
+                </h1>
+                <p className="mt-6 text-center text-lg leading-8 text-white/80">
+                  Youth empowerment is a process, to encourage youth by all
+                  means: Personality development, Skill development, Grooming
+                  and Mentorship, Guidance in competitive exams like
+                  UPSC-CSE/UPSC, IES/GATE, Mental Health,etc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
