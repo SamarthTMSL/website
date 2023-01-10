@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import type { NextPage } from "next";
 import Image from "next/legacy/image";
+import CountUp from "react-countup";
 
 const Home: NextPage = () => {
   return (
@@ -251,6 +252,72 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative bg-gradient-to-tr from-rose-500 to-amber-500 px-6 lg:px-8">
+        <div className="mx-auto max-w-6xl py-28 sm:pb-28">
+          <div className="mx-auto max-w-4xl">
+            <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl">
+              Our Events{" "}
+            </h1>
+            <div className="container mx-auto pt-12 text-white">
+              <div className="flex flex-col text-center sm:flex-row">
+                <div className="p-4 sm:w-1/3">
+                  <CountUp
+                    start={0}
+                    end={1500}
+                    duration={2}
+                    separator=","
+                    suffix="+"
+                    enableScrollSpy={true}
+                    scrollSpyOnce={false}
+                    className="title-font text-5xl font-bold text-white sm:text-6xl"
+                  />
+                  <p className="pt-3 uppercase leading-relaxed text-white/70">
+                    Participation in our events
+                  </p>
+                </div>
+                <div className="p-4 sm:w-1/3">
+                  <CountUp
+                    start={0}
+                    end={10000}
+                    duration={2}
+                    separator=","
+                    suffix="+"
+                    enableScrollSpy={true}
+                    scrollSpyOnce={false}
+                    className="title-font text-5xl font-bold text-white sm:text-6xl"
+                  />
+                  <p className="pt-3 uppercase leading-relaxed text-white/70">
+                    Our reach including associated reach
+                  </p>
+                </div>
+                <div className="p-4 sm:w-1/3">
+                  <CountUp
+                    start={0}
+                    end={10000}
+                    duration={2}
+                    separator=","
+                    suffix="+"
+                    enableScrollSpy={true}
+                    scrollSpyOnce={false}
+                    className="title-font text-5xl font-bold text-white sm:text-6xl"
+                  />
+                  <p className="pt-3 uppercase leading-relaxed text-white/70">
+                    Youths engaged in Samarth Activities
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 flex justify-center gap-x-4">
+              <Button variant="secondary" bouncy={true} shadow="medium">
+                View All
+                <span className="pl-1 text-orange-600" aria-hidden="true">
+                  &#8599;
+                </span>
+              </Button>
             </div>
           </div>
         </div>
