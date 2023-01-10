@@ -6,7 +6,7 @@ export default function Layout({ children }: any): JSX.Element {
     <div>
       <Navbar />
       <main>{children}</main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
