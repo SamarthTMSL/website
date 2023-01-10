@@ -1,0 +1,144 @@
+[
+  {
+    "id": 0,
+    "title": "SAFALYA'22",
+    "description": "Annual Fest of Samarth",
+    "eventsList": [
+      {
+        "id": 0,
+        "title": "SAFALYA'22",
+        "description": "May 17-18, 2022,  Annual Fest",
+        "imageurl": "/images/events/safalya22/SAFALYA'2k22.webp"
+      },
+      {
+        "id": 1,
+        "title": "TREASURE HUNT",
+        "description": "May 17-18, 2022",
+        "imageurl": "/images/events/safalya22/safalya22_trh.webp"
+      },
+      {
+        "id": 2,
+        "title": "MATRIX OF MOCK",
+        "description": "May 17-18, 2022",
+        "imageurl": "/images/events/safalya22/safalya22_momock.webp"
+      },
+      {
+        "id": 3,
+        "title": "WAR OF CONVICTION",
+        "description": "May 17-18, 2022",
+        "imageurl": "/images/events/safalya22/safalya22_debate.webp"
+      },
+      {
+        "id": 4,
+        "title": "KNOW YOUR HOLD",
+        "description": "May 17-18, 2022",
+        "imageurl": "/images/events/safalya22/safalya22_quiz.webp"
+      },
+      {
+        "id": 5,
+        "title": "DREAM DOTS",
+        "description": "May 17-18, 2022",
+        "imageurl": "/images/events/safalya22/safalya22_dd.webp"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "SAFALYA'21",
+    "description": "",
+    "eventsList": [
+      {
+        "id": 0,
+        "title": "SAFALYA'21",
+        "description": "August 27-29, 2021, Annual Fest",
+        "imageurl": "/images/events/safalya21/safalya.webp"
+      },
+      {
+        "id": 1,
+        "title": "MATRIX OF MOCK",
+        "description": "August 24, 2021",
+        "imageurl": "/images/events/safalya21/safalya_matrix.webp"
+      },
+      {
+        "id": 2,
+        "title": "WAR OF CONVICTION",
+        "description": "August 25, 2021",
+        "imageurl": "/images/events/safalya21/safalya_debate.webp"
+      },
+      {
+        "id": 3,
+        "title": "WAR OF CONVICTION",
+        "description": "August 26, 2021",
+        "imageurl": "/images/events/safalya21/safalya_quiz.webp"
+      },
+      {
+        "id": 4,
+        "title": "KNOW YOUR HOLD",
+        "description": "August 27, 2021",
+        "imageurl": "/images/events/safalya21/safalya_dreamdots.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ENTHUSIA",
+    "description": "",
+    "eventsList": [
+      {
+        "id": 0,
+        "title": "ENTHUSIA",
+        "description": "June 3-5, 2021",
+        "imageurl": "/images/events/enthusia/enthusia.webp"
+      },
+      {
+        "id": 1,
+        "title": "ROUND 1: VIDMENT",
+        "description": "June 1-3, 2021",
+        "imageurl": "/images/events/enthusia/enthusia_vidment.webp"
+      },
+      {
+        "id": 2,
+        "title": "ROUND 2: EXTEMPORE",
+        "description": "June 4, 2021",
+        "imageurl": "/images/events/enthusia/enthusia_extempore.webp"
+      },
+      {
+        "id": 3,
+        "title": "ROUND 3: CHALLENGERS QUIZ",
+        "description": "June 5, 2021",
+        "imageurl": "/images/events/enthusia/enthusia_quiz.webp"
+      },
+      {
+        "id": 4,
+        "title": "ROUND 4: MEMORY GAME",
+        "description": "June 5, 2021",
+        "imageurl": "/images/events/enthusia/enthusia_memorygame.webp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "OTHER NOTABLE EVENTS",
+    "description": "Events conducted throughtout the year",
+    "eventsList": [
+      {
+        "id": 0,
+        "title": "TITANS OF SITUATION",
+        "description": "April 1-5, 2022",
+        "imageurl": "/images/events/others/TOTS.webp"
+      },
+      {
+        "id": 1,
+        "title": "CLASH OF CREATIVITY",
+        "description": "January 14-15, 2022",
+        "imageurl": "/images/events/others/coc.webp"
+      },
+      {
+        "id": 2,
+        "title": "INTRODUCTION TO SAMARTH",
+        "description": "October 5, 2021",
+        "imageurl": "/images/events/others/induction.webp"
+      }
+    ]
+  }
+]
