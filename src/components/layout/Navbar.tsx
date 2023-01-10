@@ -6,7 +6,7 @@ import Button from "@/components/Button";
 import Logo from "@/components/Logo";
 
 const navigation = [
-  { name: "About", href: "/#about" },
+  { name: "About", href: "/#aim" },
   { name: "Events", href: "/events" },
   { name: "Works", href: "/#works" },
   { name: "Team", href: "/team" },
